@@ -1,3 +1,60 @@
-body{
-    background-color: blue;
+:root{
+    --txt: #fff;
 }
+
+*{
+    margin: 0;
+    /*background-color: #17130c;*/
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.box{
+    position: relative;
+    width: 630px;
+    height: 100vh;
+    color: var(--txt);
+}
+
+.container{
+    
+    background-image: url("./img/jignesh-bosamia-5PwlIiJ5D2I-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.overlay{
+    display: flex;
+    position: absolute;
+    background-color: #17130c;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    height: 100px;
+    opacity: 0.8;
+
+    top: 20vh;  
+
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    top: 20vh;
+    gap: 1vh;
+    justify-content:center;
+    align-items: center;
+
+    img {
+        width: 70px;
+        height: auto;
+    }
+
+}
+
