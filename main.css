@@ -9,7 +9,9 @@
 
 }
 
-    /* Working on the left hand side*/
+/* Working on the left hand side*/
+
+/* Box to wrap the entire left hand side*/
 .box{
     position: relative;
     width: 630px;
@@ -17,6 +19,7 @@
     color: var(--txt);
 }
 
+/* Container for left hand side background image*/
 .container{
     
     background-image: url("./img/jignesh-bosamia-5PwlIiJ5D2I-unsplash.jpg");
@@ -27,6 +30,8 @@
     position: absolute;
 }
 
+/* Container for over lay div image*/
+
 .overlay{
     display: flex;
     position: absolute;
@@ -36,11 +41,12 @@
     width: 100%;
     height: 100px;
     opacity: 0.8;
-
+    flex-flow: row wrap;
     top: 20vh;  
 
 }
 
+/* Container for div image*/
 .logo{
     position: absolute;
     display: flex;
