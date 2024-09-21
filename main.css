@@ -88,7 +88,18 @@ body{
 }
 
 .paragraph{
-    height: 100px;
+    height: 150px;
     text-align: left;
     padding: 1.2em;
+}
+
+.form-wrap{
+}
+
+.form-header{
+    padding: 1.2em;
+}
+
+.form-area{
+    padding: 1.2rem;
 }
