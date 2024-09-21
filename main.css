@@ -9,21 +9,27 @@
 
 }
 
+body{
+    display: flex;
+}
+
 /* Working on the left hand side*/
 
 /* Box to wrap the entire left hand side*/
-.box{
+.left-box{
     position: relative;
     width: 630px;
     height: 100vh;
     color: var(--txt);
+    flex-shrink: 0;
 }
 
 /* Container for left hand side background image*/
-.container{
-    
+.container-left{
+    display: flex;
     background-image: url("./img/jignesh-bosamia-5PwlIiJ5D2I-unsplash.jpg");
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -65,3 +71,24 @@
 
 }
 
+
+/*Working on the Right Side*/
+.right-box{
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    height: 100vh;
+    padding: 2em;
+}
+
+.title{
+    
+    text-align: center;
+}
+
+.paragraph{
+    height: 100px;
+    text-align: left;
+    padding: 1.2em;
+}
