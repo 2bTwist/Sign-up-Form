@@ -18,7 +18,7 @@ body{
 /* Box to wrap the entire left hand side*/
 .left-box{
     position: relative;
-    width: 630px;
+    width: 40vw;
     height: 100vh;
     color: var(--txt);
     flex-shrink: 0;
@@ -26,30 +26,16 @@ body{
 
 /* Container for left hand side background image*/
 .container-left{
+    background-color: rgb(36, 35, 35);
     display: flex;
-    background-image: url("./img/jignesh-bosamia-5PwlIiJ5D2I-unsplash.jpg");
-    background-size: cover;
+    background-image: url("./img/Work\ anniversary-rafiki.svg");
+    background-size: contain;
     background-position: center;
-    width: 100%;
+    width: 40vw;
     height: 100%;
     background-repeat: no-repeat;
     position: absolute;
-}
-
-/* Container for over lay div image*/
-
-.overlay{
-    display: flex;
-    position: absolute;
-    background-color: #17130c;
-    background-position: center;
-    height: auto;
-    width: 100%;
-    height: 100px;
-    opacity: 0.8;
-    flex-flow: row wrap;
-    top: 20vh;  
-
+    image-rendering: auto;
 }
 
 /* Container for div image*/
@@ -59,13 +45,15 @@ body{
     right: 0vh;
     left: 0vh;
     height: 10vh;
-    top: 20vh;
+    top: 5vh;
     gap: 1vh;
     justify-content:center;
     align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
 
     img {
-        width: 70px;
+        width: 150px;
         height: auto;
     }
 
