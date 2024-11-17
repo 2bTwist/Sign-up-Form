@@ -18,7 +18,7 @@ body{
 /* Box to wrap the entire left hand side*/
 .left-box{
     position: relative;
-    width: 40vw;
+    width: 35vw;
     height: 100vh;
     color: var(--txt);
     flex-shrink: 0;
@@ -31,7 +31,7 @@ body{
     background-image: url("./img/Work\ anniversary-rafiki.svg");
     background-size: contain;
     background-position: center;
-    width: 40vw;
+    width: 35vw;
     height: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -49,7 +49,6 @@ body{
     gap: 1vh;
     justify-content:center;
     align-items: center;
-    color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
 
     img {
@@ -62,16 +61,16 @@ body{
 
 /*Working on the Right Side*/
 .right-box{
+    color: #ffffff;
+    background-color: #000000;
     position: relative;
     display: flex;
     flex-flow: column wrap;
     flex: 1;
     height: 100vh;
-    padding: 2em;
 }
 
 .title{
-    
     text-align: center;
 }
 
@@ -86,6 +85,8 @@ body{
 }
 
 .form-area{
+    background-color:#161515;
+    box-shadow: 0 10px 20px -2px #827137;
     display: flex;
     flex-flow: row wrap;
     padding: 1.2rem;
