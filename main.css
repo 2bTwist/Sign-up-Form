@@ -88,9 +88,8 @@ body{
 
 .form-wrap {
     width: 100%; /* Ensure the form-wrap spans only the width of its container */
-    max-width: 800px; /* Set a reasonable maximum width */
     margin: 0 auto; /* Center the form on the page */
-    padding: 1em; /* Add internal spacing */
+    padding: 0; /* Add internal spacing */
     box-sizing: border-box; /* Ensure padding doesn’t add to total width */
     overflow: hidden; /* Prevent overflow issues */
 }
@@ -101,7 +100,7 @@ body{
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    padding: 1.2rem;
+    padding: 2rem;
     gap: 20px;
 }
 
@@ -113,7 +112,7 @@ body{
 }
 
 .button-area{
-    padding: 1.2em;
+    padding: 2em;
 }
 
 .log-in{
