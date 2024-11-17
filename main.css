@@ -75,8 +75,9 @@ body{
 }
 
 .paragraph{
-    height: 160px;
+    height: auto;
     text-align: left;
+    word-wrap: break-word; /* Ensure long words or content wrap properly */
     padding: 2em;
 }
 
@@ -85,10 +86,20 @@ body{
     padding-top: 3em;
 }
 
+.form-wrap {
+    width: 100%; /* Ensure the form-wrap spans only the width of its container */
+    max-width: 800px; /* Set a reasonable maximum width */
+    margin: 0 auto; /* Center the form on the page */
+    padding: 1em; /* Add internal spacing */
+    box-sizing: border-box; /* Ensure padding doesn’t add to total width */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
 .form-area{
     background-color:#161515;
     box-shadow: 0 10px 20px -2px #827137;
     display: flex;
+    width: 100%;
     flex-flow: row wrap;
     padding: 2rem;
     gap: 20px;
