@@ -4,7 +4,7 @@
 
 *{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 
 }
@@ -71,6 +71,7 @@ body{
 }
 
 .title{
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -108,7 +109,22 @@ body{
     display: flex;
     flex-flow: column wrap;
     width: 40%;
+}
 
+input:focus{
+    color: #000000;
+    border-radius: 8px;
+}
+
+input:invalid {
+    border: 2px solid #827137;
+    border-radius: 8px;
+    color: red;
+}
+  
+input:valid {
+    border: 2px solid greenyellow;
+    border-radius: 8px;
 }
 
 .button-area{
