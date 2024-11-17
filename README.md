@@ -1,4 +1,4 @@
-<a href="/img/Final.png" alt="Project Screenshot">Project View </a>
+<img src="/img/Final.png" alt="Project Screenshot">
 
 # Project Description
   This project is a responsive web page designed to showcase a luxury event space booking service, Nyanga Spaces. The page incorporates various features and best practices learned during development, including:
