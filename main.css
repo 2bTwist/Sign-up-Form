@@ -77,11 +77,11 @@ body{
 .paragraph{
     height: 150px;
     text-align: left;
-    padding: 1.2em;
+    padding: 2em;
 }
 
 .form-header{
-    padding: 1.2em;
+    padding: 2em;
 }
 
 .form-area{
