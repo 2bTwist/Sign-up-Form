@@ -65,40 +65,35 @@ body{
     background-color: #000000;
     position: relative;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     flex: 1;
     height: 100vh;
 }
 
 .title{
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 20px;
     text-align: center;
+
 }
 
 .paragraph{
-    height: 160px;
     text-align: left;
-    word-wrap: break-word; /* Ensure long words or content wrap properly */
     padding: 2em;
+    height: auto; /* Let the height adjust dynamically based on content */
+    word-wrap: break-word; /* Ensure long words or content wrap properly */
+    overflow: hidden;
 }
 
 .form-header{
     padding: 2em;
 }
 
-.form-wrap {
-    width: 100%; /* Ensure the form-wrap spans only the width of its container */
-    margin: 0 auto; /* Center the form on the page */
-    padding: 0; /* Add internal spacing */
-    box-sizing: border-box; /* Ensure padding doesn’t add to total width */
-    overflow: hidden; /* Prevent overflow issues */
-}
-
 .form-area{
     background-color:#161515;
     box-shadow: 0 10px 20px -2px #827137;
     display: flex;
-    width: 100%;
     flex-flow: row wrap;
     padding: 2rem;
     gap: 20px;
