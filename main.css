@@ -75,13 +75,14 @@ body{
 }
 
 .paragraph{
-    height: 150px;
+    height: 160px;
     text-align: left;
     padding: 2em;
 }
 
 .form-header{
     padding: 2em;
+    padding-top: 3em;
 }
 
 .form-area{
@@ -123,5 +124,5 @@ input:valid {
 .log-in{
     display: flex;
     gap: 10px;
-    padding: 1.2em;
+    padding: 2em;
 }
