@@ -68,6 +68,7 @@ body{
     flex-flow: row wrap;
     flex: 1;
     height: 100vh;
+    overflow: hidden;
 }
 
 .title{
@@ -80,14 +81,14 @@ body{
 
 .paragraph{
     text-align: left;
-    padding: 2em;
+    padding: 1.5em;
     height: auto; /* Let the height adjust dynamically based on content */
     word-wrap: break-word; /* Ensure long words or content wrap properly */
     overflow: hidden;
 }
 
 .form-header{
-    padding: 2em;
+    padding: 1.5em;
 }
 
 .form-area{
@@ -95,7 +96,7 @@ body{
     box-shadow: 0 10px 20px -2px #827137;
     display: flex;
     flex-flow: row wrap;
-    padding: 2rem;
+    padding: 1.5rem;
     gap: 20px;
 }
 
@@ -122,11 +123,31 @@ input:valid {
 }
 
 .button-area{
-    padding: 2em;
-}
+    padding: 1.5em;
 
+    button{
+        width: 10vw;
+        height: 5vh;
+        border: 3px solid #827137;
+        font-weight: bold;
+        border-radius: 8px;
+        text-decoration: none;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        color: #fff;
+        background-color: #827137;
+        font-size: larger;       
+    }
+}
+.gold{
+    color: #827137;
+}
 .log-in{
+    padding-top: 0;
+    padding-left: 1.5em;
     display: flex;
     gap: 10px;
-    padding: 1.2em;
 }
